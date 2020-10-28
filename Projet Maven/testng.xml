@@ -13,25 +13,25 @@
     <groups>
       <run>
         <include name="group1" />
-        <include name="group2" />
+        <!-- <include name="group2" /> -->
       </run>
     </groups>
     
     <!-- Declaration and scheduling of tests to be performed -->
     <classes>
-      <class name="tests.FirstClassTest">
+      <class name="tests.MyFirstTestClass">
         <methods>
           <include name="testOne" />
-          <include name="testTwo" />
+          <!-- <include name="testTwo" /> -->
         </methods>
       </class>
-      <class name="tests.SecondClassTest">
+      <!-- <class name="tests.MySecondTestClass">
         <methods>
           <include name="testOne" />
           <include name="testTwo" />
           <include name="testThree" />
         </methods>
-      </class>
+      </class> -->
     </classes>
   </test>
 </suite>

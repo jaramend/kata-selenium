@@ -12,7 +12,7 @@ import base.BaseTest;
  *
  */
 @Test(groups = { "group2" }, dependsOnGroups = { "group1" })
-public class SecondClassTest extends BaseTest {
+public class MySecondTestClass extends BaseTest {
 
 	/**
 	 * First test
